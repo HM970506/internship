@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsFormsApplication1.exe" version="1.0.0.0" publicKeyToken="1a2d94e72d6594da" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsFormsApplication1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsFormsApplication1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 매니페스트 옵션
+             Windows 사용자 계정 컨트롤 수준을 변경하려면 
+             requestedExecutionLevel 노드를 다음 중 하나로 바꿉니다.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 요소를 지정하면 파일 및 레지스트리 가상화를 사용하지 않습니다. 
+            이전 버전과의 호환성을 위해 응용 프로그램에 가상화가 필요한 경우
+            이 요소를 제거합니다.
+-->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="33240">
+      <assemblyIdentity name="WindowsFormsApplication1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tBgnUhLfhF4e6LCBWeEtKey5U4q3ax3yJXJ2k6L3kbw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsFormsApplication1.exe.config" size="1399">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oDbK3G7KvqH1FF4hWISRgezNmq4hwqRbsPMATkSPBb0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 이 응용 프로그램이 테스트되고 함께 작동하도록 설계된 Windows 버전
+           목록입니다. 적절한 요소의 주석 처리를 제거하면 Windows에서 
+           호환 가능성이 가장 높은 환경을 자동으로 선택합니다. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-LHA0FDV\user" issuerKeyHash="f065bf24e44a80376d9461abf6e558483ea32888" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AyxibZc8aR4oQ0a/W1v51Uawbq4D9QYU5tD+Fc27ptI=</DigestValue></Reference></SignedInfo><SignatureValue>VGq05muLtJzszE5U7mSyB+u6AEcYwy4A3AgV7py+XEP2lwIFJdeRyu4LwFxvsTpInXveMCg2OuAC27B3mSpmNue5lYrE9SD9kI5oByzYq5rWy/RdyVneSJGoqzW19SbCkYXYkgABKDFdbwANLgHiNYb2y1WwQ7kwADDCGB51nS4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7OQq6HCuwwHQnByGXa3TyK9Dg51QmzIuBGL3iGdCcqoDvJCIFpKglES4j6baEYHs0MhYn4QA+uyq71Pi+E9Mep4wfbsJLjtMn5FrAkcSxnBkDQrE0rI0T0KQ0gfgnChxiAaWHt5531JRYecS5k4Voef03I0bIN2lCMbIe5oOY/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2a6bbcd15fed0e61406f503ae6eb046d5f95b5bbf4643281e693c976d622c03" Description="" Url=""><as:assemblyIdentity name="WindowsFormsApplication1.exe" version="1.0.0.0" publicKeyToken="1a2d94e72d6594da" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LHA0FDV\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c+1UlKTyhxO9fxseLGNGHis4rwgjB9jHjhUiYqNQq8k=</DigestValue></Reference></SignedInfo><SignatureValue>TgpJcMmHP5sI8E3fKnjlx317iGCdEkwstxW4+23VlEht9zaDrXS2zQ/DKq+fj0rwSQ4xjNrhsdfzf9lUtriqLlz6xgUCsOZz91css8U1HgV+SvEFoENypYc2EP0gkgzEYVhy/P0KTjW0aLuZc2F5iPYBuHWoKbokqD+XfFSW+QE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7OQq6HCuwwHQnByGXa3TyK9Dg51QmzIuBGL3iGdCcqoDvJCIFpKglES4j6baEYHs0MhYn4QA+uyq71Pi+E9Mep4wfbsJLjtMn5FrAkcSxnBkDQrE0rI0T0KQ0gfgnChxiAaWHt5531JRYecS5k4Voef03I0bIN2lCMbIe5oOY/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQKvcFrZs5oJZPqIeeEnDO3DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEwASABBADAARgBEAFYAXAB1AHMAZQByMB4XDTIxMDcyNjAyMDgwNloXDTIyMDcyNjA4MDgwNlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBMAEgAQQAwAEYARABWAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA7OQq6HCuwwHQnByGXa3TyK9Dg51QmzIuBGL3iGdCcqoDvJCIFpKglES4j6baEYHs0MhYn4QA+uyq71Pi+E9Mep4wfbsJLjtMn5FrAkcSxnBkDQrE0rI0T0KQ0gfgnChxiAaWHt5531JRYecS5k4Voef03I0bIN2lCMbIe5oOY/0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCLKQcn893ZFUF17jLJmMpEgTH1rVK3USOC2HgSr2sEloUyfnlZThVoVhO5WP1ADA2/AqrAAMU6wmdlqORv7Y13GC/79v5AQolbn/y5jrmMSDL0T+8oAE39IoL6YrSBdOVJd5HA8hJk3qcCD9pRzANVZG6nUJ7JdCMUfG8nvblFpg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEDBTool", "NETool\NEDBTool\NEDBTool.csproj", "{3D709F0D-CC54-4158-B95B-C357A04B6C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEToolTest", "NEToolTest\NEToolTest.csproj", "{2D2FB2BF-34D9-4B7F-96C6-ED746FFA86E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSInstaller", "NETool\GSInstaller\GSInstaller.csproj", "{593EC039-A4C9-4E69-92C6-55589BCD3E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzTest", "QuartzTest\QuartzTest.csproj", "{76098598-F9B5-49BE-BC3D-244478956A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosAttDataGenerator", "PosAttDataGenerator\PosAttDataGenerator.csproj", "{3D9D046A-D8FF-413C-BB70-5566C8917F4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D709F0D-CC54-4158-B95B-C357A04B6C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D709F0D-CC54-4158-B95B-C357A04B6C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D709F0D-CC54-4158-B95B-C357A04B6C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2FB2BF-34D9-4B7F-96C6-ED746FFA86E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2FB2BF-34D9-4B7F-96C6-ED746FFA86E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2FB2BF-34D9-4B7F-96C6-ED746FFA86E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593EC039-A4C9-4E69-92C6-55589BCD3E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593EC039-A4C9-4E69-92C6-55589BCD3E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593EC039-A4C9-4E69-92C6-55589BCD3E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593EC039-A4C9-4E69-92C6-55589BCD3E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76098598-F9B5-49BE-BC3D-244478956A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76098598-F9B5-49BE-BC3D-244478956A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76098598-F9B5-49BE-BC3D-244478956A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76098598-F9B5-49BE-BC3D-244478956A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9D046A-D8FF-413C-BB70-5566C8917F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9D046A-D8FF-413C-BB70-5566C8917F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9D046A-D8FF-413C-BB70-5566C8917F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9D046A-D8FF-413C-BB70-5566C8917F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

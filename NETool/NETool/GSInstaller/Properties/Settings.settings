@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GSIntaller.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MCSClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ESGS\MCSClient\Bin</Value>
+    </Setting>
+    <Setting Name="MCSServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\127.0.0.1\ESGS\Bin</Value>
+    </Setting>
+    <Setting Name="test" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Working\TestData\IRPSClient\ESGS\Bin</Value>
+    </Setting>
+    <Setting Name="IRPSServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\127.0.0.1\ESGS\Bin</Value>
+    </Setting>
+    <Setting Name="Restore" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ON</Value>
+    </Setting>
+    <Setting Name="IRPSClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ESGS\IRPSClient\Bin</Value>
+    </Setting>
+    <Setting Name="History" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Font" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Windows\Fonts</Value>
+    </Setting>
+    <Setting Name="DataClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DataServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

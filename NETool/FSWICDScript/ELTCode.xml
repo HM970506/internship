@@ -1,0 +1,341 @@
+<EventCodeCollection>
+  <TaskName>ELT</TaskName>
+  <Codes>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_CREATE_MSGQ</CodeName>
+      <CodeValue>784</CodeValue>
+      <Description>ELT failed to create omt message queue when omt creating</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>UINT32</DataType>
+      <DataDef>queue_create_result</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_RECEIVE_WRONG_MSGQ_TYPE</CodeName>
+      <CodeValue>785</CodeValue>
+      <Description>ELT Receives invalid message queue type</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>msgq_type</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_RECV_UNDEFINED_PKT_TYPE</CodeName>
+      <CodeValue>786</CodeValue>
+      <Description>ELT got undefined TC packet type</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>packet_type</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_SEND_TC_REPLY</CodeName>
+      <CodeValue>787</CodeValue>
+      <Description>ELT fail to send TC reply</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>pkt_id</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_OPEN_DIRECTORY</CodeName>
+      <CodeValue>789</CodeValue>
+      <Description>error return from OS_opendir api</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_GET_FILE_STAT</CodeName>
+      <CodeValue>790</CodeValue>
+      <Description>error return from OS_stat api</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>INT32</DataType>
+      <DataDef>os_stat_error</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_OPEN_UPLOADFILE</CodeName>
+      <CodeValue>791</CodeValue>
+      <Description>error returned when file upload file open</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_LSEEK_UPLOADFILE</CodeName>
+      <CodeValue>792</CodeValue>
+      <Description>error returned when file upload file lseek</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>INT32</DataType>
+      <DataDef>lseek_status</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_WRITE_UPLOADFILE</CodeName>
+      <CodeValue>793</CodeValue>
+      <Description>error returned when file write in file upload</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>INT32</DataType>
+      <DataDef>os_write_status</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FILE_UPLOADING</CodeName>
+      <CodeValue>794</CodeValue>
+      <Description>error invalid command received(ex)upload buffer clear) because ELT is doing file upload now</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FILE_OFFSET_OVER_MAX_SIZE</CodeName>
+      <CodeValue>795</CodeValue>
+      <Description>file upload data offset overflow end of file upload buffer</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_PARTITION_VERIFY</CodeName>
+      <CodeValue>796</CodeValue>
+      <Description>ELT got invlaid file system partiton number</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>partition</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FILE_NOT_UPLOADING</CodeName>
+      <CodeValue>797</CodeValue>
+      <Description>tried to cancel while file not in uploading state</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_CAN_NOT_DOWNLOAD_OPEN_FILE</CodeName>
+      <CodeValue>799</CodeValue>
+      <Description>file download failed because target file status is open</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_CLOSE_FILE</CodeName>
+      <CodeValue>800</CodeValue>
+      <Description>close file failed in ELT</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_OPEN_DOWNFILE</CodeName>
+      <CodeValue>801</CodeValue>
+      <Description>fail to open download file</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_LSEEK_DOWNFILE</CodeName>
+      <CodeValue>802</CodeValue>
+      <Description>fail to lseek download file</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>INT32</DataType>
+      <DataDef>lseek_status</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_READ_DOWNFILE</CodeName>
+      <CodeValue>803</CodeValue>
+      <Description>fail to read download file</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>INT32</DataType>
+      <DataDef>os_read_status</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_FILE_NOT_DOWNLOADING</CodeName>
+      <CodeValue>804</CodeValue>
+      <Description>tried to cancel while file not in downloading state</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_START_WHILE_FILE_DOWNLOAD</CodeName>
+      <CodeValue>805</CodeValue>
+      <Description>tried to start file download while file in downloading state</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_FILE_SYS_FREE_SPACE</CodeName>
+      <CodeValue>806</CodeValue>
+      <Description>file system free space not enough</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>UINT32,UINT32,UINT32</DataType>
+      <DataDef>write_length,free_space_high,free_space_low</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_GET_FILE_SYS_FREE_SPACE</CodeName>
+      <CodeValue>807</CodeValue>
+      <Description>fail to get file system free space caused by fsw api error return</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_EXCEED_LOG_TM_SIZE</CodeName>
+      <CodeValue>816</CodeValue>
+      <Description>internal event message exceeds TM size, events not appearing in the TM can be found in the log file</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_SEND_EVENT_MSG</CodeName>
+      <CodeValue>817</CodeValue>
+      <Description>fail to send event message TM through send TM API</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_SEND_TIB</CodeName>
+      <CodeValue>818</CodeValue>
+      <Description>fail to send TIB TM through send TM API</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_TASK_CREATE</CodeName>
+      <CodeValue>849</CodeValue>
+      <Description>ELT Task created</Description>
+      <LogLevel>Info</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_TASK_EXIT</CodeName>
+      <CodeValue>850</CodeValue>
+      <Description>ELT terminated</Description>
+      <LogLevel>Info</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_SEND_FILE_DOWN_FIN_TM</CodeName>
+      <CodeValue>854</CodeValue>
+      <Description>fail to send download finish TM through send TM API</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_SEND_FILE_LIST</CodeName>
+      <CodeValue>855</CodeValue>
+      <Description>fail to send file list TM through  send TM API</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_FILE_SIZE_DIFF</CodeName>
+      <CodeValue>856</CodeValue>
+      <Description>file upload write size and written data in file system size are different. This can also happen if a user accidentally overwrites a file without deleting it</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>UINT32,UINT32</DataType>
+      <DataDef>satellite_file_size,ground_file_size</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_BIT_OVERFLOW</CodeName>
+      <CodeValue>857</CodeValue>
+      <Description>while processing file upload download bitmap, input bitmap position overflows bitmap array</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>UINT32</DataType>
+      <DataDef>bitmap_position</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_OSAL_FILE_DELETE</CodeName>
+      <CodeValue>858</CodeValue>
+      <Description>ELT fail to delete file from OSAL API error</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_OPEN_FILE_DELETE</CodeName>
+      <CodeValue>859</CodeValue>
+      <Description>OSAL API OS_FileOpenCheck returned error while trying to file delete</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_WRONG_TC_ADS_INDEX</CodeName>
+      <CodeValue>861</CodeValue>
+      <Description>requested ADS set TC exceeds ads index</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE,BYTE</DataType>
+      <DataDef>index,value</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_SEND_CAN_NETWORK_SELECTION</CodeName>
+      <CodeValue>862</CodeValue>
+      <Description>requested CAN selection TC failed</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_WRONG_ADS_VALUE</CodeName>
+      <CodeValue>863</CodeValue>
+      <Description>requested ADS set TC has wrong ads value or not matching ADS property</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_WRITE_TIB_TM</CodeName>
+      <CodeValue>864</CodeValue>
+      <Description>ELT tried to write TIB tm but write size return 0</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>tib_table_num</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_TO_WRITE_TIB_OVER_MAX_TM_SIZE</CodeName>
+      <CodeValue>865</CodeValue>
+      <Description>ELT tried to write TIB tm but write size exceeds max TM size</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>tib_table_num</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FILE_DOWN_PROGRESS</CodeName>
+      <CodeValue>866</CodeValue>
+      <Description>Send download progress TM</Description>
+      <LogLevel>Info</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>file download progress</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FILE_UP_PROGRESS</CodeName>
+      <CodeValue>867</CodeValue>
+      <Description>Send upload progress TM</Description>
+      <LogLevel>Info</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>file upload progress</DataDef>
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_CAN_NOT_CANCEL_IDLE_FILE_LIST</CodeName>
+      <CodeValue>868</CodeValue>
+      <Description>Cannot cancel when the file list is not being transferred</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType />
+      <DataDef />
+    </EventCodeDesc>
+    <EventCodeDesc>
+      <CodeName>ELT_STATUS_FAIL_DIAGNOSTIC_MESSAGE</CodeName>
+      <CodeValue>869</CodeValue>
+      <Description>ELT fail to set Diagnostic message</Description>
+      <LogLevel>Error</LogLevel>
+      <DataType>BYTE</DataType>
+      <DataDef>enable or disable parameter</DataDef>
+    </EventCodeDesc>
+  </Codes>
+</EventCodeCollection>
